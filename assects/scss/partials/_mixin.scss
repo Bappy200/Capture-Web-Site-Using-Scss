@@ -1,0 +1,23 @@
+
+
+// SECTION CLASS
+@mixin section($height, $background:#fff) {
+    width: 100%;
+    height: $height;
+    background: $background;
+}
+
+// DISPLAY FLEX
+@mixin  d-flex($justify-content) {
+    display: flex;
+    justify-content: $justify-content;
+    align-items: center;
+}
+
+// FONT SIZE ,WEIDTH , FAMILY
+@mixin font($color, $wegth, $font-size ) {
+    color: $color;
+    font-weight: $wegth;
+    font-size: $font-size;
+    
+}
